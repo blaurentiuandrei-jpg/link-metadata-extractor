@@ -39,7 +39,7 @@ Health check endpoint.
 }
 ```
 
-### POST /extract
+### `POST /extract`
 
 Extracts metadata from a given URL.
 
@@ -129,4 +129,5 @@ http://127.0.0.1:5000
 # Notes
 
 - This project uses in-memory storage (cache & rate limiting), suitable for demos and learning purposes.
+
 - For production, Redis or another shared store would be recommended.
